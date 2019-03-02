@@ -8,7 +8,6 @@ function events:CHAT_MSG_LOOT(...)
 end
 
 -- Body that is actually ran
-print("Loading " .. ADDON_NAME)
 local addon_frame = CreateFrame(ADDON_NAME)
 addon_frame:RegisterEvent("CHAT_MSG_LOOT")
 addon_frame:SetScript("OnEvent", function(self, event, ...)
