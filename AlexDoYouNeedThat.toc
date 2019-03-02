@@ -1,0 +1,7 @@
+## Interface: 80100
+## Title: Alex, do you need that?
+## Notes: A tiny joke addon that yells "<Player>, do you need that <item>?" whenever someone loots an item in raid.
+## Author: Griffone
+## Version: v2
+
+main.lua
